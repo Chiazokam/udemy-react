@@ -1,0 +1,41 @@
+.Person{
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.Toggle{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+  }
+
+.Toggle:hover{
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.Delete{
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+
+.Delete:hover{
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
