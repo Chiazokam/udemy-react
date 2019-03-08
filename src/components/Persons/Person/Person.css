@@ -39,3 +39,9 @@
     color: red;
     border: 1px solid red;
 }
+
+@media (min-width: 500px) {
+    .Person{
+        width: 450px;
+    }
+}
